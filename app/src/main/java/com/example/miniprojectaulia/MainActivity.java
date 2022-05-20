@@ -29,13 +29,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        btnJelajah = findViewById(R.id.btnjelajah);
-        btnJelajah.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-            }
-        });
 
     }
 }

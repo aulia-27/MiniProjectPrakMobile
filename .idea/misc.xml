@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/MiniProjectAulia/app/src/main/res/drawable/ic_launcher_background.xml" value="0.11842105263157894" />
         <entry key="..\:/Android/MiniProjectAulia/app/src/main/res/layout/activity_info_makanan.xml" value="0.21052631578947367" />
         <entry key="..\:/Android/MiniProjectAulia/app/src/main/res/layout/activity_kalkulator_bmi.xml" value="0.2" />
         <entry key="..\:/Android/MiniProjectAulia/app/src/main/res/layout/activity_kalkulator_kalori.xml" value="0.21052631578947367" />

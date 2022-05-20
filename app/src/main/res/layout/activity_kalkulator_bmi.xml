@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:background="@drawable/bg1"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <RelativeLayout
         android:layout_width="match_parent"
@@ -40,6 +41,7 @@
 
                 <EditText
                     android:id="@+id/editBB"
+                    android:inputType="number"
                     android:layout_width="210dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
@@ -61,6 +63,7 @@
 
                 <EditText
                     android:id="@+id/editTB"
+                    android:inputType="number"
                     android:layout_width="210dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"

@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/bg1"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
@@ -46,15 +47,5 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="Kalkulator BMI" />
-
-    <Button
-        android:visibility="gone"
-        android:id="@+id/btnjelajah"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btnKalkulatorBMI"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:text="Jelajah" />
 
 </RelativeLayout>
