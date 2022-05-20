@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".KalkulatorBmiActivity">
+
+        <TextView
+            android:id="@+id/beranda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Kalkulator BMI"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+        <TableLayout
+            android:id="@+id/tbl1"
+            android:layout_below="@id/beranda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow android:layout_marginTop="10dp" />
+
+            <TableRow android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txtBB"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="30dp"
+                    android:text="Berat Badan"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editBB"
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txtTB"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="30dp"
+                    android:text="Tinggi Badan"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editTB"
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/btnHitung"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tbl1"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dp"
+            android:text="Hitung" />
+
+        <TextView
+            android:id="@+id/txtHasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnHitung"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Hasil BMI"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtHasil"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:visibility="gone"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnHitung"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="120dp"
+            android:text="Simpan Hasil BMI" />
+
+
+        <TextView
+            android:id="@+id/txtInfoBMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tbl1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="160dp"
+            android:text="Info BMI"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtKetBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtInfoBMI"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Indeks massa tubuh adalah metrik standar yang digunakan untuk menentukan siapa saja yang masuk dalam golongan berat badan sehat dan tidak sehat"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtIndikatorBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtKetBMI"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Standar Level BMI indonesia"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtInfoIndikatorBMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtIndikatorBMI"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="dibawah 18.5: di bawah berat badan
+                        \n18.5 - 24.5  : Berat badan normal
+                        \n24,5- 29.9    : kegemukan
+                        \n30 keatas      : obesitas"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+</ScrollView>
